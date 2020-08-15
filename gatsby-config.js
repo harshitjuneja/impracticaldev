@@ -1,15 +1,14 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://impracticaldev.com'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Blog by Harshit Juneja',
+    subtitle: 'Collection of articles on tech and life experiences',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -21,17 +20,13 @@ module.exports = {
         label: 'About me',
         path: '/about/',
       },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Harshit Juneja',
+      email: 'junejaharshit01@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'im_practicaldev',
+      github: 'harshitjuneja',
       rss: '#',
       vk: '#',
     },
