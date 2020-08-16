@@ -1,13 +1,24 @@
 ---
-title: "About me"
+title: 'About me'
 layout: page
-path: "/about"
+path: '/about'
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+- Leading by example over managing
+- Experimentation over stagnation
+- Failure over fear
+- Ambition over mediocrity
+- Sacrifice and achievement over wishing
+- Technology over other industries
+- Jeans over trousers
+- Community over self
+- Adventure over comfort
+- Salt over sweet
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
+![Harshit Juneja in Universal Studios, Singapore](./1.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+[Harshit Juneja](https://www.twitter.com/im_practicaldev/) is an experienced technology professional with a demonstrated history of thriving with one of the world's largest financial services provider in a platform development role.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+He also leads a global technology community ([Develoeper Circle Delhi from Facebook](https://www.facebook.com/groups/DevCDelhiNCR/)) on the internet of more than 15000 developers and has strong development skills in Web technologies.
+
+He is located in New Delhi, India and frequently checks his mailbox (junejaharshit01@gmail.com).
