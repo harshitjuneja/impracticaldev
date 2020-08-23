@@ -1,5 +1,5 @@
 ---
-title: Promises in Async Javascript
+title: Stop being scared😵 of Javascirpt Promises!
 date: '2020-08-16T23:46:37.121Z'
 layout: post
 draft: false
@@ -7,15 +7,20 @@ path: '/posts/promises-in-async-js/'
 category: 'Javascript'
 tags:
   - 'Async Programming'
-  - 'Javascript'
-
-description: 'Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.'
+  - 'Javascript Promises'
+description: 'A lot of times we loose confidence over patterns/concepts we dont get a chance to use very frequently. Javascript promises is one such concept. For nearly 2 decades the Javascript community was surviving on callbacks to achieve anything async and hence a lot of abstactions in libararies/most code developers write is in one way or the other still exists with patterns of call-me-backs.'
 ---
 
-Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
+A lot of times we loose confidence over patterns/concepts we don't get a chance to use very frequently. Promises in Javascript is one such concept.
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)
+For nearly 2 decades, the Javascript community was surviving on callbacks to achieve anything async and hence it's frequent to see a lot of code which still exists with a pattern of call-me-backs and overtime callbacks become the default pattern in which one thinks about async programming.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis.
+Encountering promises is a repeated expeience of learning the concept -> not using much -> being scared of the pattern -> repeat and hence it made all sense to document and learn about promises in a way that optimized the mentioned never ending learning loop. Welcome to the promise circus!
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+Note:
+I'm nowhere against not using simply callbacks at all. But if given a choice of implementing an async construct, one should be familiar of what it brings along and what benifits one might have if you use an advanced language construct like Promises over callbacks.
+
+## Callbacks 💩
+
+Without any further questioning take a moment to understand/guess about how you think promiese might work.
+![A diagram from Mozilla development network explaining promises](./promises.png)
