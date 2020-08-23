@@ -20,7 +20,31 @@ Encountering promises is a repeated expeience of learning the concept -> not usi
 Note:
 I'm nowhere against not using simply callbacks at all. But if given a choice of implementing an async construct, one should be familiar of what it brings along and what benifits one might have if you use an advanced language construct like Promises over callbacks.
 
-## Callbacks 💩
+Promises are supported by all major browsers apart from IE 11 as per writing this article on August 2020.
+
+# Callbacks 💩 cannot be trusted 🙅:
+
+On assigning a callback function you have to blindly trust a third party (web-browser, some other utility's code) to call your program code asynchronosly (after some time). This blind trust will be broken when some of your worst fears come true:
+
+- Your callback function doesn't get called back
+
+- It might get called multiple times
+
+- Any errors encountered during processing might get swallowed
+
+A popular use case you must have come across is ring-fencing payments using 3rd party provider integration for card payments processing. Consider handing over trust and assigning a callback function once the payment collection process is complete. All good? Great.
+
+Now imagine what havoc could occur if the card company pushes a buggy update that causes the above 3 points to take place:
+
+- Callback doesn't get called: You cannot show a success/error page and even if the money is deducted your customer is just fixated on your payment screen. Award winning user experience!
+
+- It might get called multiple times: This most probably would mean your customer's card has been charged multiple times. Guess who is not going to be happy?
+
+- Any errors encountered during processing might get swallowed: For every exception that is called in the 3rd party call, we are clueless. We just assume everything went fine and if we have got a call back everything is hunky-dory.
+
+Because of the callback pattern you don't have control over code execution anymore and have to blindly trust the 3rd party to be in good shape all the time. With promises, you can get back this control.
+
+# What in the world are promises⭐?
 
 Without any further questioning take a moment to understand/guess about how you think promiese might work.
 ![A diagram from Mozilla development network explaining promises](./promises.png)
