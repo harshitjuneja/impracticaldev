@@ -8,7 +8,7 @@ category: 'Javascript'
 tags:
   - 'Async Programming'
   - 'Javascript Promises'
-description: 'A lot of times we loose confidence over patterns/concepts we dont get a chance to use very frequently. Javascript promises is one such concept. For nearly 2 decades the Javascript community was surviving on callbacks to achieve anything async and hence a lot of abstactions in libararies/most code developers write is in one way or the other still exists with patterns of call-me-backs.'
+description: 'A lot of times we loose confidence over patterns/concepts we dont get a chance to use very frequently. Javascript promises is one such concept. For nearly 2 decades the Javascript community was surviving on callbacks to achieve anything async and hence a lot of abstactions in libararies/most code developers write, in one way or the other still exist with patterns of call-me-backs.'
 ---
 
 A lot of times we loose confidence over patterns/concepts we don't get a chance to use very frequently. Promises in Javascript is one such concept.
@@ -20,7 +20,7 @@ Encountering promises is a repeated expeience of learning the concept -> not usi
 Note:
 I'm nowhere against not using simply callbacks at all. But if given a choice of implementing an async construct, one should be familiar of what it brings along and what benifits one might have if you use an advanced language construct like Promises over callbacks.
 
-Promises are supported by all major browsers apart from IE 11 as per writing this article on August 2020.
+Promises are [supported](https://caniuse.com/#feat=promises) by all major browsers apart from IE 11 as per writing this article on August 2020.
 
 # Callbacks 💩 cannot be trusted 🙅:
 
@@ -46,5 +46,49 @@ Because of the callback pattern you don't have control over code execution anymo
 
 # What in the world are promises⭐?
 
-Without any further questioning take a moment to understand/guess about how you think promiese might work.
+//A paragraph on async js and inversion
+
+Consider promise objects as placeholders in your code that magically get values after some time. So a promise variable at any point in time can either have a value or not have a value.
+
+3 promise states are possible:
+
+- Pending: initial state
+- Resolved: completed successfully
+- Rejected: failed because of some error
+
+Promises are based on the revealing constructor pattern. It's very simple.
+
+The promise constructor taken in function argument with two parameters and immedietly after constructing the instance, calls that function to change the state of the newly constructed object.
+
+Look at the following code:
+
+```js
+const promiseObj = new Promise(
+  // ******Immedietly call the function below after promiseObj is constructed*******
+  function(resolve, reject) {
+    // Call resolve method if you want to change the state of promiseObj to resolved
+    // Call reject method if you want to change the state of promiseObj to rejected
+  }
+)
+```
+
+This pattern is followed so that no external entity can change the promise status apart from the promise constructor itself.
+
+Without any further questioning take a moment to understand/guess about how you think promises might work.
 ![A diagram from Mozilla development network explaining promises](./promises.png)
+
+# Methods on Promise instance
+
+1. Promise.prototype.then()
+2. Promise.prototype.catch()
+3. Promise.prototype.finally()
+
+# Promise utilities
+
+1. Promise.all(iterable)
+2. Promise.any(iterable)
+3. Promise.race(iterable)
+4. Promise.allSettled(iterable)
+
+5. Promise.reject(reason)
+6. Promise.resolve(value)
