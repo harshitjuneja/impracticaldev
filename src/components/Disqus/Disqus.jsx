@@ -20,6 +20,7 @@ class Disqus extends Component {
   }
   render() {
     const { postNode, siteMetadata } = this.props
+    console.log(siteMetadata.disqusShortname)
     if (!siteMetadata.disqusShortname) {
       return null
     }

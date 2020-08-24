@@ -7,10 +7,10 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by Harshit Juneja',
+    title: 'Impractical Dev',
     subtitle: 'Collection of articles on tech and life experiences',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'impracticaldev',
     menu: [
       {
         label: 'Articles',
