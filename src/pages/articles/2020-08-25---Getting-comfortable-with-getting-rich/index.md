@@ -1,18 +1,16 @@
 ---
 title: Getting comfortable with getting rich
-date: '2020-08-25T23:46:37.121Z'
+date: '2021-02-15T23:46:37.121Z'
 layout: post
 draft: false
 path: '/posts/comfortable-with-getting-rich/'
-category: 'Javascript'
+category: 'Money'
 tags:
   - 'money'
   - 'wealth'
   - 'finances'
-description: 'A lot of times we loose confidence over patterns/concepts we dont get a chance to use very frequently. Javascript promises is one such concept. For nearly 2 decades the Javascript community was surviving on callbacks to achieve anything async and hence a lot of abstractions in libraries/most code developers write, in one way or the other still exist with patterns of call-me-backs.'
+description: 'Middle class kids, kids of refugees, chilren of alcoholic parents, orphans or poeple who have had a single parent have had a harsh relationship with money in general, where they litreally see their parents grinding to keep the lights on. They are kids who are usually embarrased in class for not submitting their fee in time, compromise or struggle to go to that picnic.'
 ---
-
-
 
 # Background and relationship with money
 Middle class kids, kids of refugees, chilren of alcoholic parents, orphans or poeple who have had a single parent have had a harsh relationship with money in general, where they litreally see their parents grinding to keep the lights on. They are kids who are usually embarrased in class for not submitting their fee in time, compromise or struggle to go to that picnic. 
