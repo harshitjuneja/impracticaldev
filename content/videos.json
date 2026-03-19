@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Impractical Dev Channel",
+    "description": "Main channel page with all published content.",
+    "url": "https://www.youtube.com/@impracticaldev"
+  },
+  {
+    "title": "Latest Uploads",
+    "description": "Direct link to the channel videos tab.",
+    "url": "https://www.youtube.com/@impracticaldev/videos"
+  },
+  {
+    "title": "Playlists",
+    "description": "Curated playlists and learning series.",
+    "url": "https://www.youtube.com/@impracticaldev/playlists"
+  }
+]

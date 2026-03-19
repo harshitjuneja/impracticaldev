@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "welcome-to-impractical-dev",
+    "title": "Welcome To Impractical Dev",
+    "date": "2026-03-19",
+    "tags": [
+      "data-science",
+      "engineering"
+    ],
+    "file": "content/posts/welcome-to-impractical-dev.md"
+  },
+  {
+    "slug": "synthetic-mri-notes",
+    "title": "Synthetic MRI For Brain Tumor Segmentation: Practical Notes",
+    "date": "2026-03-19",
+    "tags": [
+      "medical-imaging",
+      "machine-learning"
+    ],
+    "file": "content/posts/synthetic-mri-notes.md"
+  }
+]
